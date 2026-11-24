@@ -42,13 +42,13 @@ function CipoLista() {
             }
 
             const ujRendeles: Ciporendeles = await valasz.json();
-
             setCipok(elozo => [...elozo, ujRendeles]);
 
         } catch (err) {
             console.log(err);
         }
     }
+
     async function handleRendelesTorlese(id: string) {
         try {
             const valasz = await fetch(URL + "/" + id, {
@@ -73,9 +73,7 @@ function CipoLista() {
             const valasz = await fetch(URL + "/" + id, {
                 method: "PATCH",
                 headers: { "Content-type": "application/json" },
-                body: JSON.stringify({
-                    ar: ujAr
-                })
+                body: JSON.stringify({ ar: ujAr })
             });
 
             if (!valasz.ok) {
@@ -103,9 +101,7 @@ function CipoLista() {
             const valasz = await fetch(URL + "/" + id, {
                 method: "PATCH",
                 headers: { "Content-type": "application/json" },
-                body: JSON.stringify({
-                    fizetve: ujAllapot
-                })
+                body: JSON.stringify({ fizetve: ujAllapot })
             });
 
             if (!valasz.ok) {
@@ -124,6 +120,14 @@ function CipoLista() {
             console.log(err);
         }
     }
+
+    return {
+        cipok,
+        handleRendelesFelvetele,
+        handleRendelesTorlese,
+        handleArModositasa,
+        handleFizetesModositasa
+    };
 }
 
 export default CipoLista;

@@ -8,7 +8,7 @@
       "meret": 42,
       "szin": "Fekete",
       "szallitasi_cim": "Budapest, Kossuth utca 12.",
-      "id": "3oVaGeTZKXE"
+      "id": "kYxHNpnAexI"
     },
     {
       "termek_neve": "Adidas Ultraboost",
@@ -18,7 +18,7 @@
       "meret": 43,
       "szin": "Fehér",
       "szallitasi_cim": "Debrecen, Piac utca 5.",
-      "id": "D7sirv2ULHY"
+      "id": "F-VGYtvbk08"
     },
     {
       "termek_neve": "Puma RS-X",
@@ -28,7 +28,7 @@
       "meret": 41,
       "szin": "Kék",
       "szallitasi_cim": "Szeged, Tisza Lajos körút 8.",
-      "id": "McPwtI9MC9o"
+      "id": "sYv6lQP6QzQ"
     },
     {
       "termek_neve": "Converse Chuck Taylor",
@@ -38,7 +38,7 @@
       "meret": 39,
       "szin": "Piros",
       "szallitasi_cim": "Pécs, Király utca 20.",
-      "id": "5hqEpnLxAss"
+      "id": "_oT_xcl3WVY"
     },
     {
       "termek_neve": "Nike Air Force 1",
@@ -48,7 +48,7 @@
       "meret": 44,
       "szin": "Fehér",
       "szallitasi_cim": "Győr, Baross Gábor út 10.",
-      "id": "3kdGijXqzFA"
+      "id": "37zqAhdAtJY"
     },
     {
       "termek_neve": "Adidas Superstar",
@@ -58,7 +58,7 @@
       "meret": 40,
       "szin": "Fekete",
       "szallitasi_cim": "Miskolc, Széchenyi utca 15.",
-      "id": "GJRFZ4Wexn8"
+      "id": "Q7lmz6IvGpM"
     },
     {
       "termek_neve": "Vans Old Skool",
@@ -68,7 +68,7 @@
       "meret": 38,
       "szin": "Bordó",
       "szallitasi_cim": "Eger, Dobó tér 3.",
-      "id": "JQz1KaX6hLE"
+      "id": "AwAl1k_IqSE"
     },
     {
       "termek_neve": "New Balance 574",
@@ -78,7 +78,7 @@
       "meret": 42,
       "szin": "Szürke",
       "szallitasi_cim": "Székesfehérvár, Fő utca 7.",
-      "id": "gRAJ6mlmoIA"
+      "id": "mbRx8miT8NU"
     },
     {
       "termek_neve": "Reebok Classic Leather",
@@ -88,17 +88,17 @@
       "meret": 41,
       "szin": "Barna",
       "szallitasi_cim": "Kecskemét, Rákóczi út 18.",
-      "id": "lL05oaZmGQw"
+      "id": "6gYOCA7d-ac"
     },
     {
-      "termek_neve": "Asics Gel",
+      "termek_neve": "Asics Gel-Kayano",
       "ar": 49990,
       "rendeles_datum": "2026-01-24",
       "fizetve": true,
       "meret": 45,
       "szin": "Kék",
       "szallitasi_cim": "Nyíregyháza, Bethlen Gábor utca 9.",
-      "id": "4FC4MqEiiFA"
+      "id": "TTPNlV8Vr_E"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
