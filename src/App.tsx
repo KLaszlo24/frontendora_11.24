@@ -21,7 +21,7 @@ function App() {
                 </button>
 
                 <button
-                    className={`btn ${
+                    className={`btn me-2 ${
                         oldal === "admin" ? "btn-success" : "btn-outline-success"
                     }`}
                     onClick={() => setOldal("admin")}
@@ -30,7 +30,7 @@ function App() {
                 </button>
 
                 <button
-                    className={`btn ${
+                    className={`btn me-2 ${
                         oldal === "moderator" ? "btn-warning" : "btn-outline-warning"
                     }`}
                     onClick={() => setOldal("moderator")}
